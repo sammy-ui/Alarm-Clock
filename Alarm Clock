@@ -1,0 +1,12 @@
+// Alarm Clock
+
+public void alarm() {
+
+	boolean on = ceckAlarm();
+	while(on){
+		beep();
+		on = checkAlarm();
+	}
+}
+
+// return true if the alarm is on, false if off
